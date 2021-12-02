@@ -42,6 +42,10 @@
       <groupId>com.google.j2objc</groupId>
       <artifactId>j2objc-annotations</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+    </dependency>
     <!-- TODO(cpovirk): does this comment belong on the <dependency> in <profiles>? -->
     <!-- TODO(cpovirk): want this only for dependency plugin but seems not to work there? Maven runs without failure, but the resulting Javadoc is missing the hoped-for inherited text -->
   </dependencies>
